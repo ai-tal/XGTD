@@ -1,0 +1,438 @@
+Format type:keyword version: 1.1.0
+begin_<project> Full Project
+project_id 29216
+begin_<globals> 
+longitude 0
+latitude 0
+end_<globals>
+FirstAvailableUnknownLayoutNumber 0
+FirstAvailableStudyAreaNumber 4
+begin_<studyarea> SA_+X
+StudyAreaNumber 0
+active
+begin_<partitioning> 
+partitioning_type disabled
+queuing_type disabled
+max_threads 0
+num_partitions 2
+end_<partitioning>
+begin_<apg_acceleration> 
+enabled no
+workflow_mode full
+binary_output_mode none
+binary_rate 0 active
+database_mode write_siso
+path_depth 25
+adjacency_distance 10
+end_<apg_acceleration>
+autoboundary 1
+begin_<model> 
+full3d
+raytracingmode sbr
+rcs_method mec_po
+creepingwaves Yes
+ray_spacing 0.25
+plane_wave_phase_reference automatic
+0 -5.0387 -0.062034
+max_reflections 6
+max_transmissions 4
+max_surface_diffractions 0
+max_wedge_diffractions 1
+begin_<OutputRequests> 
+CEF no
+ComplexImpulseResponse no
+DelaySpread yes
+FieldAnimation no
+DirectionOfArrival no
+DirectionOfDeparture no
+ElectricFieldVsFrequency no
+ElectricFieldVsTime no
+EMFields no
+FSPathloss no
+FSPower no
+InputData no
+MeanDirectionOfArrival no
+MeanDirectionOfDeparture no
+MeanTimeOfArrival no
+Pathloss yes
+Paths yes
+Power yes
+PowerDelayProfile no
+TimeOfArrival no
+XPathloss no
+C2I no
+ScatteringAmplitude no
+SParameter no
+StrongestTx no
+TotalReceivedPower no
+end_<OutputRequests>
+end_<model>
+begin_<boundary> 
+begin_<reference> 
+cartesian
+longitude 0
+latitude 0
+visible no
+sealevel
+end_<reference>
+zmin -2.42203402519226
+zmax 2.29796600341797
+nVertices 4
+-2.45000004768372 -8.72500038146973 0
+2.45000004768372 -8.72500038146973 0
+2.45000004768372 -1.57199907302856 0
+-2.45000004768372 -1.57199907302856 0
+end_<boundary>
+end_<studyarea>
+begin_<studyarea> SA_-X
+StudyAreaNumber 1
+inactive
+invisible
+begin_<partitioning> 
+partitioning_type disabled
+queuing_type disabled
+max_threads 0
+num_partitions 2
+end_<partitioning>
+begin_<apg_acceleration> 
+enabled no
+workflow_mode full
+binary_output_mode none
+binary_rate 0 active
+database_mode write_siso
+path_depth 25
+adjacency_distance 10
+end_<apg_acceleration>
+autoboundary 1
+begin_<model> 
+full3d
+raytracingmode sbr
+rcs_method mec_po
+creepingwaves Yes
+ray_spacing 0.25
+plane_wave_phase_reference automatic
+0 -5.0387 -0.062034
+max_reflections 6
+max_transmissions 4
+max_surface_diffractions 0
+max_wedge_diffractions 1
+begin_<OutputRequests> 
+CEF no
+ComplexImpulseResponse no
+DelaySpread yes
+FieldAnimation no
+DirectionOfArrival no
+DirectionOfDeparture no
+ElectricFieldVsFrequency no
+ElectricFieldVsTime no
+EMFields no
+FSPathloss no
+FSPower no
+InputData no
+MeanDirectionOfArrival no
+MeanDirectionOfDeparture no
+MeanTimeOfArrival no
+Pathloss yes
+Paths yes
+Power yes
+PowerDelayProfile no
+TimeOfArrival no
+XPathloss no
+C2I no
+ScatteringAmplitude no
+SParameter no
+StrongestTx no
+TotalReceivedPower no
+end_<OutputRequests>
+end_<model>
+begin_<boundary> 
+begin_<reference> 
+cartesian
+longitude 0
+latitude 0
+visible no
+sealevel
+end_<reference>
+zmin -2.42203402519226
+zmax 2.29796600341797
+nVertices 4
+-2.45000004768372 -8.72500038146973 0
+2.45000004768372 -8.72500038146973 0
+2.45000004768372 -1.57199907302856 0
+-2.45000004768372 -1.57199907302856 0
+end_<boundary>
+end_<studyarea>
+begin_<studyarea> SA_+Y
+StudyAreaNumber 2
+inactive
+invisible
+begin_<partitioning> 
+partitioning_type disabled
+queuing_type disabled
+max_threads 0
+num_partitions 2
+end_<partitioning>
+begin_<apg_acceleration> 
+enabled no
+workflow_mode full
+binary_output_mode none
+binary_rate 0 active
+database_mode write_siso
+path_depth 25
+adjacency_distance 10
+end_<apg_acceleration>
+autoboundary 1
+begin_<model> 
+full3d
+raytracingmode sbr
+rcs_method mec_po
+creepingwaves Yes
+ray_spacing 0.25
+plane_wave_phase_reference automatic
+0 -5.0387 -0.062034
+max_reflections 6
+max_transmissions 4
+max_surface_diffractions 0
+max_wedge_diffractions 1
+begin_<OutputRequests> 
+CEF no
+ComplexImpulseResponse no
+DelaySpread yes
+FieldAnimation no
+DirectionOfArrival no
+DirectionOfDeparture no
+ElectricFieldVsFrequency no
+ElectricFieldVsTime no
+EMFields no
+FSPathloss no
+FSPower no
+InputData no
+MeanDirectionOfArrival no
+MeanDirectionOfDeparture no
+MeanTimeOfArrival no
+Pathloss yes
+Paths yes
+Power yes
+PowerDelayProfile no
+TimeOfArrival no
+XPathloss no
+C2I no
+ScatteringAmplitude no
+SParameter no
+StrongestTx no
+TotalReceivedPower no
+end_<OutputRequests>
+end_<model>
+begin_<boundary> 
+begin_<reference> 
+cartesian
+longitude 0
+latitude 0
+visible no
+sealevel
+end_<reference>
+zmin -2.42203402519226
+zmax 2.29796600341797
+nVertices 4
+-2.45000004768372 -8.72500038146973 0
+2.45000004768372 -8.72500038146973 0
+2.45000004768372 -1.57199907302856 0
+-2.45000004768372 -1.57199907302856 0
+end_<boundary>
+end_<studyarea>
+begin_<studyarea> SA_-Y
+StudyAreaNumber 3
+inactive
+invisible
+begin_<partitioning> 
+partitioning_type disabled
+queuing_type disabled
+max_threads 0
+num_partitions 2
+end_<partitioning>
+begin_<apg_acceleration> 
+enabled no
+workflow_mode full
+binary_output_mode none
+binary_rate 0 active
+database_mode write_siso
+path_depth 25
+adjacency_distance 10
+end_<apg_acceleration>
+autoboundary 1
+begin_<model> 
+full3d
+raytracingmode sbr
+rcs_method mec_po
+creepingwaves Yes
+ray_spacing 0.25
+plane_wave_phase_reference automatic
+0 -5.0387 -0.062034
+max_reflections 6
+max_transmissions 4
+max_surface_diffractions 0
+max_wedge_diffractions 1
+begin_<OutputRequests> 
+CEF no
+ComplexImpulseResponse no
+DelaySpread yes
+FieldAnimation no
+DirectionOfArrival no
+DirectionOfDeparture no
+ElectricFieldVsFrequency no
+ElectricFieldVsTime no
+EMFields no
+FSPathloss no
+FSPower no
+InputData no
+MeanDirectionOfArrival no
+MeanDirectionOfDeparture no
+MeanTimeOfArrival no
+Pathloss yes
+Paths yes
+Power yes
+PowerDelayProfile no
+TimeOfArrival no
+XPathloss no
+C2I no
+ScatteringAmplitude no
+SParameter no
+StrongestTx no
+TotalReceivedPower no
+end_<OutputRequests>
+end_<model>
+begin_<boundary> 
+begin_<reference> 
+cartesian
+longitude 0
+latitude 0
+visible no
+sealevel
+end_<reference>
+zmin -2.42203402519226
+zmax 2.29796600341797
+nVertices 4
+-2.45000004768372 -8.72500038146973 0
+2.45000004768372 -8.72500038146973 0
+2.45000004768372 -1.57199907302856 0
+-2.45000004768372 -1.57199907302856 0
+end_<boundary>
+end_<studyarea>
+begin_<feature> 
+feature 0
+object
+active
+filename ./EM.object
+end_<feature>
+begin_<txrx_sets> 
+filename ./Full.txrx
+FirstAvailableTxRxNumber 5
+end_<txrx_sets>
+FirstAvailableCommSystemNumber 0
+begin_<antenna> myUAN
+antenna 0
+type userdefined
+waveform 0
+power_threshold -250
+cable_loss 0
+VSWR 1
+gain 5.55
+component TotalGain
+gain_range 40
+show_arrow no
+is_sphere no
+SurfaceMounted no
+filename ./antenna_custom.uan
+gainSpecification UserSpecified
+end_<antenna>
+begin_<Waveform> WF_sband
+Sinusoid
+waveform 0
+frequencyDistribution Uniform 500.000 1500.000 inactive nosampling 10
+CarrierFrequency 2200300048.828
+phase 0.000
+bandwidth 1000000.000
+end_<Waveform>
+FirstAvailableFilterNumber 0
+begin_<requests> 
+cartesian
+sealevel
+local
+CalculationMode New
+MaxRenderedPaths 25
+FieldAnimationIncrement 10
+FieldAnimationTimeAveraged yes
+farzone_polarization TotalGain
+farzone_gain_range 40.000
+farzone_auto_radius yes
+farzone_radius 2.216
+farzone_x 0.000
+farzone_y -5.039
+farzone_z -0.062
+farzone_auto_positioned yes
+farzone_display_as pattern
+farzone_show_gain_arrow no
+FirstAvailableOutputRequestNumber 1
+begin_<gain> FarField
+OutputRequestNumber 0
+active
+vary both
+theta_start 0.000
+theta_stop 180.000
+theta_inc 1.000
+phi_start 0.000
+phi_stop 360.000
+phi_inc 1.000
+end_<gain>
+CEF no
+ComplexImpulseResponse no
+DelaySpread yes
+FieldAnimation no
+DirectionOfArrival no
+DirectionOfDeparture no
+ElectricFieldVsFrequency no
+ElectricFieldVsTime no
+EMFields no
+FSPathloss no
+FSPower no
+InputData no
+MeanDirectionOfArrival no
+MeanDirectionOfDeparture no
+MeanTimeOfArrival no
+Pathloss yes
+Paths yes
+Power yes
+PowerDelayProfile no
+TimeOfArrival no
+XPathloss no
+C2I no
+ScatteringAmplitude no
+SParameter no
+StrongestTx no
+TotalReceivedPower no
+end_<requests>
+begin_<Scales> 
+begin_<MpeThreshhold> 
+AutoScaling 0
+DrawValues 0
+AutoUpdating 0
+Discrete 1
+UseGlobalOpacity 1
+ManualValuesSet 1
+ClampedHigh 1
+ClampedLow 1
+Alpha 1.000e+000
+ManualMin 0.000e+000
+ManualMax 2.000e+002
+TextColor 1.000 1.000 1.000
+Colors 4
+0.300 0.000 0.500
+0.000 1.000 0.000
+1.000 1.000 0.000
+1.000 0.000 0.000
+PartitionValues 
+3
+0.001 50.000 100.000 
+end_<MpeThreshhold>
+end_<Scales>
+end_<project>

@@ -1,0 +1,88 @@
+Format type:keyword version: 1.1.0
+begin_<project> Structure Only
+project_id 29216
+begin_<globals> 
+longitude 0
+latitude 0
+end_<globals>
+FirstAvailableUnknownLayoutNumber 0
+FirstAvailableStudyAreaNumber 0
+begin_<feature> 
+feature 0
+object
+active
+filename ./EM.object
+end_<feature>
+FirstAvailableCommSystemNumber 0
+FirstAvailableFilterNumber 0
+begin_<requests> 
+cartesian
+sealevel
+local
+CalculationMode New
+MaxRenderedPaths 25
+FieldAnimationIncrement 10
+FieldAnimationTimeAveraged yes
+farzone_polarization TotalGain
+farzone_gain_range 40
+farzone_auto_radius yes
+farzone_radius 2.21581
+farzone_x 0
+farzone_y -5.0387
+farzone_z -0.062034
+farzone_auto_positioned yes
+farzone_display_as pattern
+farzone_show_gain_arrow no
+FirstAvailableOutputRequestNumber 0
+CEF no
+ComplexImpulseResponse no
+DelaySpread no
+FieldAnimation no
+DirectionOfArrival no
+DirectionOfDeparture no
+ElectricFieldVsFrequency no
+ElectricFieldVsTime no
+EMFields no
+FSPathloss no
+FSPower no
+InputData no
+MeanDirectionOfArrival no
+MeanDirectionOfDeparture no
+MeanTimeOfArrival no
+Pathloss no
+Paths no
+Power no
+PowerDelayProfile no
+TimeOfArrival no
+XPathloss no
+C2I no
+ScatteringAmplitude no
+SParameter no
+StrongestTx no
+TotalReceivedPower no
+end_<requests>
+begin_<Scales> 
+begin_<MpeThreshhold> 
+AutoScaling 0
+DrawValues 0
+AutoUpdating 0
+Discrete 1
+UseGlobalOpacity 1
+ManualValuesSet 1
+ClampedHigh 1
+ClampedLow 1
+Alpha 1.000000e+000
+ManualMin 0.000000e+000
+ManualMax 2.000000e+002
+TextColor 1.000000 1.000000 1.000000
+Colors 4
+0.300000 0.000000 0.500000
+0.000000 1.000000 0.000000
+1.000000 1.000000 0.000000
+1.000000 0.000000 0.000000
+PartitionValues 
+3
+0.001000 50.000000 100.000000 
+end_<MpeThreshhold>
+end_<Scales>
+end_<project>
